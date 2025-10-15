@@ -7,7 +7,7 @@ const tiers = [
         description: "Small fun effects to tease the streamer.",
         effects: [
             "Spawn 3 Chicken",
-            "Give Nausea (10s)",
+            "Give Nausea (30s)",
             "Random Sound Effect",
             "Set Time to Night"
         ]
@@ -18,7 +18,7 @@ const tiers = [
         price: "$10 or 2 Membership",
         description: "More chaotic or dangerous — high entertainment value.",
         effects: [
-            "Spawn Creeper Near Player",
+            "Spawn 5 Creepers or 1 Charged Creeper Near Player",
             "Summon Lightning Bolt",
             "Start Thunderstorm",
             "Random Teleport (50–100 blocks)",
@@ -32,9 +32,9 @@ const tiers = [
         price: "$20 or 5 Membership",
         description: "The real chaos begins.",
         effects: [
-            "Spawn 5 Zombies or Skeletons",
-            "Spawn TNT (Primed)",
-            "Blindness + Slowness Combo (10s)"
+            "Spawn 5 Zombies and 5 Skeletons",
+            "Spawn 5 TNT (Primed)",
+            "Blindness + Slowness Combo (60s)"
         ]
     },
     {
@@ -43,7 +43,7 @@ const tiers = [
         price: "$50 or 10 Membership",
         description: "Big moves that can change the game instantly.",
         effects: [
-            "Teleport to Random Biome / Coordinates",
+            "Teleport to Random Biome / Random Coordinates",
             "Spawn Mini-Boss (Evoker / Ravager)",
             "Set Surrounding Area on Fire (5x5)",
             "Remove One Armor Piece",
